@@ -6,12 +6,12 @@ This repository contains my runtime optimized solutions to various LeetCode prob
 
 The repository is organized as follows:
 
-leetcode-js/
-├── 1 Two Sum.js
-│   ├── solution.js
-│   └── README.md
-└── ...
-└── ...
+    .
+    ├── 1 Two Sum                    # Problem number and name
+    │   ├── solution.js              # Solution to the problem
+    │   └── README.md                # Description of the problem
+    └── ...
+    └── ...
 
 ## Contributing
 
