@@ -1,6 +1,6 @@
 # Problem 1: Two Sum
 
-This folder contains a JavaScript solution to the LeetCode problem (Two Sum)[https://leetcode.com/problems/two-sum/]. The problem requires us to find two numbers in an array that add up to a given target.
+This folder contains a JavaScript solution to the LeetCode problem [Two Sum](https://leetcode.com/problems/two-sum/). The problem requires us to find two numbers in an array that add up to a given target.
 
 ## Problem Description
 
