@@ -8,8 +8,8 @@ The repository is organized as follows:
 
 leetcode-js/
 ├── 1 Two Sum.js
-│ ├── solution.js
-│ └── README.md
+│   ├── solution.js
+│   └── README.md
 └── ...
 └── ...
 
