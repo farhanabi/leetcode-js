@@ -1,6 +1,6 @@
 # LeetCode JS Solutions
 
-This repository contains my runtime optimized solutions to various LeetCode problems. Each solution is saved as a separate JavaScript file in the root directory.
+This repository contains my runtime optimized solutions to various LeetCode problems. Each solution is saved as a separate folder in the root directory.
 
 ## Folder Structure
 
