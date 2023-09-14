@@ -2,24 +2,24 @@
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function(s) {
-    s = s.toLowerCase()
-    let left = 0, right = s.length - 1
+var isPalindrome = function (s) {
+    let left = 0,
+        right = s.length - 1;
+    const alphanumeric = /^[a-z0-9]+$/i;
     while (left <= right) {
-        const leftCharCode = s.charCodeAt(left)
-        const rightCharCode = s.charCodeAt(right)
-        const aCharCode = 'a'.charCodeAt(0), zCharCode = 'z'.charCodeAt(0), zeroCharCode = '0'.charCodeAt(0), nineCharCode = '9'.charCodeAt(0)
-        if ((leftCharCode < aCharCode || leftCharCode > zCharCode) && (leftCharCode < zeroCharCode || leftCharCode > nineCharCode)) {
-            left++
-            continue
+        const leftChar = s[left].toLowerCase();
+        const rightChar = s[right].toLowerCase();
+        if (!alphanumeric.test(leftChar)) {
+            left++;
+            continue;
         }
-        if ((rightCharCode < aCharCode || rightCharCode > zCharCode) && (rightCharCode < zeroCharCode || rightCharCode > nineCharCode)) {
-            right--
-            continue
+        if (!alphanumeric.test(rightChar)) {
+            right--;
+            continue;
         }
-        if (s[left] !== s[right]) return false
-        left++
-        right--
+        if (leftChar !== rightChar) return false;
+        left++;
+        right--;
     }
-    return true
+    return true;
 };
